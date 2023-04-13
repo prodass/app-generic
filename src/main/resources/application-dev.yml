@@ -1,0 +1,15 @@
+## CONFIGURACIÓN DEL PUERTO
+server:
+  port: 9090
+
+## CONFIGURACIÓN DE DATASOURCE
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/sistema_generic?useSSL=false
+    username: root
+    password: admin
+    
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
