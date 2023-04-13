@@ -49,10 +49,15 @@ public final class GenericConstant {
     // =============================================================================================
     public static final String API_VERSION = "/v1";
     public static final String RESOURCE_GENERIC = API_VERSION + "/app-generic";
+    public static final String RESOURCE_GENERIC_ID = "/{id}";
+    public static final String RESOURCE_GENERIC_LISTAR = "/listar";
+    public static final String RESOURCE_GENERIC_BUSCAR = "/{buscar}";
+    
     public static final String RESOURCE_EDITORIALES = "/editoriales";
     public static final String RESOURCE_EDITORIALES_EDITORIAL = "/editorial";
-    public static final String RESOURCE_GENERIC_ID = "/{id}";
-    public static final String RESOURCE_AUTHORS = "/authors";
+    
+    public static final String RESOURCE_AUTORES = "/autores";
+    public static final String RESOURCE_AUTORES_AUTOR = "/autor";
 
     
 }
