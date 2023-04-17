@@ -4,7 +4,11 @@ import com.biblioteca.constant.GenericConstant;
 import com.biblioteca.dto.EditorialDTO;
 import com.biblioteca.dto.request.EditorialDTORequest;
 import com.biblioteca.service.IEditorialService;
+
 import java.util.List;
+
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -18,8 +22,8 @@ public class EditorialController {
     }
     
     @GetMapping(GenericConstant.RESOURCE_EDITORIALES + GenericConstant.RESOURCE_EDITORIALES_EDITORIAL)
-    public List<EditorialDTO> findAll(){
-        return this.editorialService.findAll();
+    public Page<EditorialDTO> findAll(Pageable pageable){
+        return this.editorialService.findAll(pageable);
     }
     
     @PostMapping(GenericConstant.RESOURCE_EDITORIALES + GenericConstant.RESOURCE_EDITORIALES_EDITORIAL)

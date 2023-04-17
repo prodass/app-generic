@@ -4,6 +4,9 @@ import com.biblioteca.constant.GenericConstant;
 import com.biblioteca.dto.AutorDTO;
 import com.biblioteca.service.IAutorService;
 import java.util.List;
+
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -22,7 +25,7 @@ public class AutorController {
     }
     
     @GetMapping(GenericConstant.RESOURCE_AUTORES + GenericConstant.RESOURCE_AUTORES_AUTOR + GenericConstant.RESOURCE_GENERIC_LISTAR)
-    public List<AutorDTO> findAll(){
-        return this.autorService.findAll();
+    public Page<AutorDTO> findAll(Pageable pageable){
+        return this.autorService.findAll(pageable);
     }
 }
