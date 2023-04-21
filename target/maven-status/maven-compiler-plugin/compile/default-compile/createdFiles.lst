@@ -1,0 +1,17 @@
+com\biblioteca\model\Editorial.class
+com\biblioteca\dto\EditorialDTO$EditorialDTOBuilder.class
+com\biblioteca\controller\EditorialController.class
+com\biblioteca\constant\GenericConstant.class
+com\biblioteca\dto\AutorDTO.class
+com\biblioteca\repository\IEditorialRepository.class
+com\biblioteca\controller\AutorController.class
+com\biblioteca\repository\IAutorRepository.class
+com\biblioteca\service\IEditorialService.class
+com\biblioteca\service\impl\EditorialServiceImpl.class
+com\biblioteca\dto\EditorialDTO.class
+com\biblioteca\dto\request\EditorialDTORequest.class
+com\biblioteca\service\IAutorService.class
+com\biblioteca\model\Autor.class
+com\biblioteca\AppBibliotecaApplication.class
+com\biblioteca\service\impl\AutorServiceImpl.class
+com\biblioteca\dto\AutorDTO$AutorDTOBuilder.class

@@ -12,7 +12,7 @@ public class Autor {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_autor")
-    private Long idAutor;
+    private Long id;
     
     @Column(name = "nombre")
     private String nombre;

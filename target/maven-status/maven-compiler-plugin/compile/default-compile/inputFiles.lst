@@ -1,0 +1,15 @@
+C:\Users\pablo\Desktop\app-generic\src\main\java\com\biblioteca\service\impl\AutorServiceImpl.java
+C:\Users\pablo\Desktop\app-generic\src\main\java\com\biblioteca\dto\EditorialDTO.java
+C:\Users\pablo\Desktop\app-generic\src\main\java\com\biblioteca\model\Editorial.java
+C:\Users\pablo\Desktop\app-generic\src\main\java\com\biblioteca\repository\IEditorialRepository.java
+C:\Users\pablo\Desktop\app-generic\src\main\java\com\biblioteca\service\IAutorService.java
+C:\Users\pablo\Desktop\app-generic\src\main\java\com\biblioteca\repository\IAutorRepository.java
+C:\Users\pablo\Desktop\app-generic\src\main\java\com\biblioteca\dto\AutorDTO.java
+C:\Users\pablo\Desktop\app-generic\src\main\java\com\biblioteca\controller\AutorController.java
+C:\Users\pablo\Desktop\app-generic\src\main\java\com\biblioteca\controller\EditorialController.java
+C:\Users\pablo\Desktop\app-generic\src\main\java\com\biblioteca\constant\GenericConstant.java
+C:\Users\pablo\Desktop\app-generic\src\main\java\com\biblioteca\dto\request\EditorialDTORequest.java
+C:\Users\pablo\Desktop\app-generic\src\main\java\com\biblioteca\model\Autor.java
+C:\Users\pablo\Desktop\app-generic\src\main\java\com\biblioteca\service\IEditorialService.java
+C:\Users\pablo\Desktop\app-generic\src\main\java\com\biblioteca\service\impl\EditorialServiceImpl.java
+C:\Users\pablo\Desktop\app-generic\src\main\java\com\biblioteca\AppBibliotecaApplication.java

@@ -9,7 +9,7 @@ import lombok.*;
 @NoArgsConstructor
 public class AutorDTO implements Serializable{
 
-    private Long idAutor;
+    private Long id;
     private String nombre;
     private String apellido;
 }

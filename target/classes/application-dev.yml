@@ -25,10 +25,12 @@ springdoc:
   packages-to-scan:
     - com.biblioteca.controller
 
-## LOG FALTARIA GENERAR EL ARCHIVO
 logging:
   level:
     root: info
   pattern:
     console: "%d{ISO8601} %highlight(%-5level) [%thread] %yellow(%logger{100}) : %msg%n%throwable"
+    file: "%d{ISO8601} %highlight(%-5level) [%thread] %yellow(%logger{100}) : %msg%n%throwable"
+  file:
+    name: /ruta/del/archivo/de/log.log
 

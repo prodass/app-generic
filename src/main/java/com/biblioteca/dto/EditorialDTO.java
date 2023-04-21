@@ -8,6 +8,6 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 public class EditorialDTO implements Serializable{
-    private Long idEditorial;
+    private Long id;
     private String nombre;
 }

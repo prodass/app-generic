@@ -45,6 +45,12 @@ public final class GenericConstant {
     public static final String TAB_NAME_AUTOR = "autor";
 
     // =============================================================================================
+    // PROCEDIMIENTOS ALMACENADOS
+    // =============================================================================================
+    public static final String PA_BUSCAR_AUTOR = "{call pa_buscar_autor(:buscar)}";
+
+
+    // =============================================================================================
     // PATH DEL SISTEMA GENERIC
     // =============================================================================================
     public static final String API_VERSION = "/v1";

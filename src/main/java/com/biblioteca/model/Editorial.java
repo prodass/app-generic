@@ -19,7 +19,7 @@ public class Editorial {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_editorial")
-    private Long idEditorial;
+    private Long id;
     
     @Column(name = "nombre")
     private String nombre;
